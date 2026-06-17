@@ -1,0 +1,1 @@
+这里可以放 seuomi.ttf。它独立于 sukoya.ttf，不会覆盖 sukoya。

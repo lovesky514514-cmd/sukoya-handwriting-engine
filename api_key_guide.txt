@@ -1,0 +1,19 @@
+DeepSeek API Key 填写方式
+
+推荐方式：
+1. 双击 一键启动.bat 或 START.bat
+2. 浏览器自动打开 http://localhost:8080
+3. 第一次进入网页会弹出“填写 DeepSeek API Key”窗口
+4. 粘贴你的 sk- 开头的 Key，点“保存到本地”
+
+保存位置：
+backend/.env
+
+也可以手动填写：
+打开 backend/.env，把下面这一行改成你的 Key：
+DEEPSEEK_API_KEY=sk-你的key
+
+说明：
+- Key 只保存在你本地项目里。
+- 不填 Key 也可以生成手写图片和 PDF。
+- 只有使用“DeepSeek AI 文本整理”时才需要 Key。
