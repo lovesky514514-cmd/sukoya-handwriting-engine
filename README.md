@@ -1,5 +1,7 @@
 # 手写版转化器
 
+直接下载一键包
+
 ## 网页预览效果
 
 ![网页预览效果](docs/web-preview.png)
@@ -72,18 +74,4 @@ examples/demo_input_all_features.txt  全功能测试文本
 docs/web-preview.png             网页预览图
 docs/handwriting-preview.jpg     手写效果图
 START.bat                        Windows 一键启动
-```
-
-## GitHub 提交前注意
-
-不要提交真实 API Key。  
-本项目已忽略：
-
-```text
-backend/.env
-.env
-api_key.txt
-deepseek_key.txt
-node_modules/
-frontend/dist/
 ```
