@@ -1,6 +1,9 @@
 # 手写版转化器
 
 直接下载一键包
+```text
+handwriting-main.zip
+```
 
 ## 网页预览效果
 
